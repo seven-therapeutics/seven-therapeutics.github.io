@@ -119,7 +119,7 @@ p {
 
     .bg-parallax {
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: auto 100%;
         background-position: center;
         background-attachment: fixed;
     }
@@ -278,8 +278,8 @@ p {
     }
 
     #problem1-content-box-outer {
-        width: 100%;
-        height: 100%;
+
+        height: 100vh;
         display: table;
     }
 
@@ -327,8 +327,8 @@ p {
     }
 
     #problem2-content-box-outer {
-        width: 100%;
-        height: 100%;
+
+        height: 100vh;
         display: table;
     }
 
@@ -503,6 +503,7 @@ p {
         margin: 20px 0 20px 0;
         position: relative;
         top: 13%;
+        text-align: center;
     }
 
     .our-team-3 .team-prof a {
@@ -511,11 +512,13 @@ p {
         font-weight: bold;
         letter-spacing: 1px;
         text-transform: uppercase;
+        text-align: center;
     }
 
     .our-team-3 .team-prof a:hover {
         color: #2196f3;
         text-decoration: none;
+        text-align: center;
     }
 
     .our-team-3 .team-prof small {
@@ -525,6 +528,7 @@ p {
         font-weight: 700;
         margin-top: 10px;
         text-transform: uppercase;
+        text-align: center;
     }
 
     .our-team-3 .social-link {
@@ -568,6 +572,7 @@ p {
         }
         .our-team-3 .team-prof a {
             font-size: 16px;
+            text-align: center;
         }
     }
 
