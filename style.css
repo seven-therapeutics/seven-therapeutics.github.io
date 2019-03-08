@@ -1,0 +1,736 @@
+/*
+author: Boostraptheme
+author URL: https://boostraptheme.com
+License: Creative Commons Attribution 4.0 Unported
+License URL: https://creativecommons.org/licenses/by/4.0/
+*/
+
+/*====================================================
+                DEFAULT VALUES:
+
+                Font Family                 : Roboto Condensed
+
+                Greenish Blue               : #2196f3       (Buttons, Icons, Links, Lines & Backgrounds)
+                Steel Gray                  : #41464b       (Headings)
+                Blue Bayoux                 : #64707b       (Paragraphs)
+                White                       : #fff          (Text With Black Backgrounds)
+                Black                       : #000
+
+======================================================*/
+
+
+/* General CSS */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+
+h1 {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+h3 {
+    color: #41464b;
+    text-transform: uppercase;
+}
+
+h5 {
+    color: #2196f3;
+    text-transform: uppercase;
+}
+
+p {
+    color: #64707b;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+
+
+/*====================================================
+                        HOME
+======================================================*/
+
+    #home {
+        height: 90vh;
+    }
+
+    .carousel-item {
+        height: 90vh;
+        min-height: 300px;
+        background: no-repeat center center scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    .carousel-item:nth-child(1) {
+        background-color: #000;
+    }
+
+    .carousel-item:nth-child(2) {
+        background-color: #000;
+    }
+
+    #home-content-box {
+        width: 100vw;
+        height: 90vh;
+        display: table;
+        background: #000;
+    }
+
+    #home-content-box-inner {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: left;
+    }
+
+    #home-heading h3 {
+        color: #fff;
+        font-size: 9vw;
+        font-weight: 700;
+        text-align: left;
+
+        margin: 0 0 0 18vw;
+    }
+
+
+    #home-heading h1 {
+        color: #fff;
+        font-size: 4vh;
+        font-weight: 700;
+        text-align: left;
+
+        margin: 20px 18vw 20px 18vw;
+    }
+
+
+/*====================================================
+                    PARALLAX (Generic)
+======================================================*/
+
+    .bg-parallax {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+
+/*====================================================
+                     BUTTONS (Generic)
+======================================================*/
+
+    .btn-general {
+        border-width: 2px;
+        border-radius: 0;
+        padding: 12px 26px 12px 26px;
+        font-size: 16px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+
+    .btn-white {
+        border-color: #fff;
+        color: #fff;
+    }
+
+    .btn-white:hover,
+    .btn-white:focus {
+        background-color: #fff;
+        color: #41464b;
+    }
+
+    .btn-blue {
+        border-color: #2196f3;
+        color: #2196f3;
+    }
+
+    .btn-blue:hover,
+    .btn-blue:focus {
+        background-color: #2196f3;
+        color: #fff;
+    }
+
+    .btn-back-to-top {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        font-size: 22px;
+        padding: 3px 15px;
+        border-radius: 0;
+        display: none;
+    }
+
+/*====================================================
+                       ANIMATE
+======================================================*/
+
+    #home-cover,
+    #home-heading,
+    #home-btn {
+        -webkit-animation-duration: .5s;
+                animation-duration: .5s;
+    }
+
+    #home-cover {
+        -webkit-animation-delay: .1s;
+                animation-delay: .1s;
+    }
+
+    #home-heading {
+        -webkit-animation-delay: .5s;
+                animation-delay: .5s;
+    }
+
+    #home-btn {
+        -webkit-animation-delay: 1s;
+                animation-delay: 1s;
+    }
+
+
+
+
+    /*=================================================
+                        CONTENT (Generic)
+    ===================================================*/
+    .content-box {
+        padding:60px 0 60px 0;
+    }
+
+    .content-title h1 {
+        font-weight: 700;
+        text-align: center;
+        margin: 0 0 30px 0;
+    }
+
+    .content-title h3 {
+        font-weight: 700;
+        text-align: center;
+        margin: 0 0 30px 0;
+    }
+
+    .content-title h5 {
+        font-weight: 700;
+        text-align: center;
+        margin: 0 0 30px 0;
+    }
+
+    .content-title-white h1, .content-title-white h3, .content-title-white p{
+        color: #fff;
+    }
+
+    .content-title p {
+        text-align: center;
+        padding-bottom:60px;
+        margin: 0 auto;
+        max-width: 700px;
+    }
+
+    .content-title-underline {
+        width: 60px;
+        height: 10px;
+        background-color: #2196f3;
+        margin: 0 auto 60px auto;
+    }
+
+    .content-title-underline-white {
+        width: 60px;
+        height: 7px;
+        background-color: #fff;
+        margin: 0 auto 30px 0px;
+    }
+
+    .content-title-underline-light {
+        width: 40px;
+        height: 2px;
+        background-color: #2196f3;
+        margin: 0 auto 30px auto;
+    }
+
+
+/*====================================================
+                       PROBLEM
+======================================================*/
+
+    #problem1{
+        background: #000;
+    }
+
+    #problem1-bg-diagonal {
+        width: 100%;
+        height: 100vh;
+        float: right;
+        background-image: url(../img/Antibodies.svg);
+
+    }
+
+    #problem1-content-box {
+        float: left;
+        height: 100vh;
+    }
+
+    #problem1-content-box-outer {
+      
+        height: 100vh;
+        display: table;
+    }
+
+    #problem1-content-box-inner {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    #problem1 .content-title h3 {
+        text-align: left;
+        font-size: 5vh;
+    }
+
+    #problem1 .content-title-underline {
+        margin: 0 0 30px 0;
+    }
+
+    #problem1-desc p {
+        margin-bottom: 30px;
+        color:#fff;
+    }
+
+
+
+
+
+
+
+
+    #problem2{
+
+    }
+
+    #problem2-bg-diagonal {
+        width: 100%;
+        height: 100vh;
+        float: right;
+        background-image: url(../img/T-cells.svg);
+
+    }
+
+    #problem2-content-box {
+        float: left;
+        height: 100vh;
+    }
+
+    #problem2-content-box-outer {
+
+        height: 100vh;
+        display: table;
+    }
+
+    #problem2-content-box-inner {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    #problem2 .content-title h3 {
+        text-align: left;
+        font-size: 5vh;
+    }
+
+    #problem2 .content-title-underline {
+        margin: 0 0 30px 0;
+    }
+
+    #problem2-desc p {
+        margin-bottom: 30px;
+        color:#fff;
+    }
+
+
+
+
+
+    /*=================================================
+                      TECHNOLOGY
+    ===================================================*/
+    .technology-padding {
+        padding: 0;
+    }
+
+    .technology-item {
+        padding: 40px 0 0 0;
+        margin:0;
+        border:1px solid #eee;
+        border-right: 0px;
+        position: relative;
+        overflow: hidden;
+        cursor: pointer;
+        text-align: center;
+        transition: padding .5s ease;
+    }
+
+    .technology-item:hover {
+        padding: 20px 0 20px 0;
+        margin:0;
+        border-bottom:2px solid #2196f3;
+    }
+
+    .technology-item-icon {
+        width: 102px;
+        height: 102px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        border: 6px solid #f6f6f6;
+        border-radius: 100%;
+    }
+
+    .technology-item-icon i {
+        color: #2196f3;
+        height: 90px;
+        line-height: 90px;
+        width: 90px;
+        border: 1px solid #e0e0e0;
+        border-radius: 100%;
+        text-align: center;
+    }
+
+    .technology-item:hover .technology-item-icon i {
+        color: #fff;
+        background-color: #2196f3;
+    }
+
+    .technology-item-title h3 {
+        font-size: 5vh;
+        text-align: center;
+        font-weight: 400px;
+        margin: 0 0 10px 0;
+        text-transform: capitalize;
+    }
+
+    .technology-item-desc p {
+        margin: 20px auto;
+        width: 70%;
+        text-align: center
+    }
+
+    ul.technology-spec {
+        list-style: none;
+        padding-left: 0;
+        margin: 10px 0 40px 0;
+    }
+
+    ul.technology-spec li p {
+        font-weight: 300;
+        text-transform: uppercase;
+        padding-bottom: 10px;
+    }
+
+    /*=================================================
+                      TECHNOLOGY (Generic)
+    ===================================================*/
+    /*remove border*/
+    .left-bord {
+        border-left:1px solid #eee;
+    }
+
+    .right-bord {
+        border-right:1px solid #eee;
+    }
+
+    .top-bord {
+        border-top:1px solid #eee;
+    }
+
+    .bottom-bord {
+        border-bottom:1px solid #eee;
+    }
+
+/*====================================================
+                       TEAM
+======================================================*/
+
+    #team {
+        padding: 5px 0 30px 0;
+        background-color: #000;
+    }
+
+    .team-member {
+        margin: 0 15px;
+    }
+
+    .our-team-3 {
+        position: relative;
+        text-align: center;
+        overflow: hidden;
+        margin: 0 20px;
+      /*  box-shadow: 2px 2px 4px 1px #b9b6b6; */
+    }
+
+    .our-team-3 img {
+        width: 100%;
+        height: auto;
+        transform: scale(1);
+        transition: all 0.40s linear 0s;
+    }
+
+    .our-team-3:hover img {
+        transform: scale(1.05);
+        transition: transform 5s linear 0s;
+    }
+
+    .our-team-3 .team-content {
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        padding: -10vh 1px;
+        background: rgba(255, 255, 255, 0.8);
+        transition: all 0.50s ease-in-out;
+    }
+
+    .our-team-3:hover .team-content {
+        opacity: 1;
+    }
+
+    .our-team-3 .team-prof {
+        margin: 20px 0 20px 0;
+        position: relative;
+        top: 13%;
+    }
+
+    .our-team-3 .team-prof a {
+        color: #6a6060;
+        font-size: 2vw;
+        font-weight: bold;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+
+    .our-team-3 .team-prof a:hover {
+        color: #2196f3;
+        text-decoration: none;
+    }
+
+    .our-team-3 .team-prof small {
+        color: #2196f3;
+        display: block;
+        font-size: 16px;
+        font-weight: 700;
+        margin-top: 10px;
+        text-transform: uppercase;
+    }
+
+    .our-team-3 .social-link {
+        padding: 0;
+        margin: 0;
+        position: relative;
+        top: 13%;
+    }
+
+    .our-team-3 .social-link li {
+        list-style: none;
+        margin-right: 5px;
+        display: inline-block;
+    }
+
+    .our-team-3 .social-link li a {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        border-radius: 50%;
+        color: #fff;
+        background: rgba(0, 0, 0, 0.3);
+    }
+
+    .our-team-3 .social-link li a:hover {
+        background: #333;
+        text-decoration: none;
+    }
+
+
+
+    @media only screen and (max-width: 990px) {
+        .our-team-3 {
+            margin-bottom: 20px;
+        }
+        .our-team-3 .social-link {
+            padding: 0;
+            margin: 0;
+            position: relative;
+            top: 5%;
+        }
+        .our-team-3 .team-prof a {
+            font-size: 16px;
+        }
+    }
+
+
+
+
+/*====================================================
+                       SOCIAL
+======================================================*/
+
+    .social-list {
+        padding-left: 0;
+    }
+
+    .social-list li {
+        list-style: none;
+        display: inline-block;
+        width: 32px;
+        height: 32px;
+        margin-right: 6px;
+        margin-top: 10px;
+    }
+
+    .social-icon i {
+        font-size: 17px;
+    }
+
+    .icon-gray i {
+        color: #64707b;
+    }
+
+    .icon-white i {
+        color: #fff;
+    }
+
+    .social-icon i:hover {
+        color: #2196f3;
+    }
+
+
+/*====================================================
+                       CONTACT
+======================================================*/
+
+    footer {
+        background-color: #000;
+        padding-top: 5vh;
+        border-top: 5px solid #000;
+    }
+
+    #contact-left h3,
+    #contact-right h3 {
+        color: #fff;
+        font-size: 2vw;
+        font-weight: 700;
+    }
+
+    #contact-left p {
+        color: #fff;
+        margin-bottom: 2vh;
+    }
+
+
+
+/*====================================================
+                       FOOTER
+======================================================*/
+
+    #footer-bottom {
+        background-color: rgba(0, 0, 0, 0.1);
+        padding: 1vh 0;
+        margin-top: 1vh;
+    }
+
+    #footer-copyrights p {
+        margin: 0;
+        color: #fff;
+    }
+
+    #footer-menu {
+        float: left;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 300;
+    }
+
+    #footer-menu ul {
+        list-style: none;
+        padding-left: 0;
+        margin: 0;
+    }
+
+    #footer-menu ul li {
+        display: inline-block;
+    }
+
+    #footer-menu a {
+        color: #fff;
+        font-size: 16px;
+        font-weight: 300;
+        margin: 0 10px;
+        text-decoration: none;
+    }
+
+    #footer-menu a:hover {
+        color: #2196f3;
+    }
+
+/*====================================================
+                     NAVIGATION
+======================================================*/
+
+    .navbar {
+        padding: 0 0;
+        -webkit-transition: all .5s ease-in-out;
+        transition: all .5s ease-in-out;
+        background: #000;
+
+    }
+    .vesco-top-nav {
+        background: #000;
+        padding: 2vh 0;
+    }
+
+    .navbar-header {
+        padding-left:10vw;
+    }
+
+    .justify-content-end {
+        padding-right:85px;
+    }
+
+    .navbar-nav {
+        float: right;
+    }
+
+    .navbar-nav>li>a {
+        color: #fff !important;
+        font-size: 15px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 700;
+    }
+
+    .navbar-nav>li>a:hover{
+        background: none;
+        color: #2196f3!important;
+    }
+
+    .navbar-toggle {
+        background-color: #000;
+        border: 1px solid #fff;
+        border-radius: 0;
+    }
+
+    .navbar-toggle .navbar-toggler-icon {
+        background-color: #fff!important;
+    }
+
+    .navbar-collapse {
+        max-height: none !important;
+    }
+
+    .vesco-top-nav ul.navbar-nav>li>a.active {
+        color: #2196f3!important;
+    }
