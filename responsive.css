@@ -21,6 +21,9 @@
     .navbar-nav {
         float: right;
     }
+      .bg-parallax {
+          height:100vh;
+    }
     .vesco-nav-wrapper {
         padding: 0;
     }
@@ -41,6 +44,9 @@
     .vesco-nav-wrapper {
         padding: 0;
     }
+    .bg-parallax {
+        height:100vh;
+    }
     /* About - remove diagonal border */
     #about-bg-diagonal {
         background-image: none;
@@ -53,10 +59,6 @@
     #about-content-box {
         width: 100%;
         height: 350px;
-    }
-    /* Stats */
-    .stats-item {
-        padding: 20px 0;
     }
     /* Footer */
     #footer-copyrights {
@@ -83,6 +85,9 @@
     #home-heading h3 {
         font-size: 9vw;
     }
+      .bg-parallax {
+          height:100vh;
+    }
     /* Buttons */
     .btn-general {
         padding: 6px 22px 6px 22px;
@@ -105,23 +110,7 @@
     .img-wrapper img {
         min-width: 100%;
     }
-    /* Testimonials */
-    .testimonial blockquote {
-        padding: 6px 50px;
-    }
-    .testimonial blockquote:before {
-        left: 10px;
-    }
-    .testimonial blockquote:after {
-        right: 10px;
-    }
-    .testimonial blockquote p {
-        font-size: 14px;
-    }
-    /* Stats */
-    .stats-item {
-        padding: 20px 0;
-    }
+
     /* Footer */
     #footer-copyrights {
         text-align: center;
@@ -130,26 +119,3 @@
 
 
 /* Extra Small Devices (Portrait Phones & Smaller devices) */
-
-@media (max-width: 320px) {
-    /* Services */
-    .service-item-icon i {
-        padding: 7px;
-    }
-    .service-item-title h3 {
-        font-size: 17px;
-    }
-    /* Testimonials */
-    .testimonial img {
-        max-width: 80px;
-    }
-    .testimonial blockquote {
-        padding: 6px 30px;
-    }
-    .testimonial blockquote:before {
-        left: 7px;
-    }
-    .testimonial blockquote:after {
-        right: 7px;
-    }
-}
