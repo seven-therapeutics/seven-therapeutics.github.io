@@ -105,11 +105,12 @@ p {
 
     #home-heading h1 {
         color: #fff;
-        font-size: 3vw;
+        font-size: 4.5vw;
         font-weight: 700;
         text-align: left;
 
-        margin: 20px 18vw 20px 18vw;
+    /*    margin: 20px 18vw 20px 18vw;  */
+          margin: 0 18vw 0 18vw;
     }
 
 
@@ -124,6 +125,12 @@ p {
         background-position: center;
         background-attachment: fixed;
     }
+
+
+/*fade*/
+
+
+
 
 /*====================================================
                      BUTTONS (Generic)
@@ -261,15 +268,31 @@ p {
                        PROBLEM
 ======================================================*/
 
+    #screenbreak{
+      background: #000;
+      width: 100vw;
+      height:100vh;
+
+    }
+
     #problem1{
-        background: #000;
+        /*background: #000; */
+        background-image: url(../img/Antibodies.svg);
     }
 
     #problem1-bg-diagonal {
         width: 100%;
-        height: 100vh;
+        height: 50vh;
         float: right;
         background-image: url(../img/Antibodies.svg);
+
+    }
+
+    #problem1b-bg-diagonal {
+        width: 100%;
+        height: 50vh;
+        float: right;
+        background-image: url(../img/Antibodies_none.svg);
 
     }
 
