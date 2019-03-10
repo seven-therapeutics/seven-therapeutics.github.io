@@ -105,7 +105,7 @@ p {
 
     #home-heading h1 {
         color: #fff;
-        font-size: 4.5vw;
+        font-size: 4vw;
         font-weight: 700;
         text-align: left;
 
@@ -129,6 +129,163 @@ p {
 
 /*fade*/
 
+
+#fade {
+    padding: 0 0 0 0;
+    background-image: url(../img/Antibodies_none.svg);
+    background-repeat: no-repeat;
+ /*    background-size: auto 100%; */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.fade-member {
+    margin: 0 0;
+    object-fit: cover;
+}
+
+.fade-1 {
+    position: absolute;
+    text-align: center;
+    overflow: visible;
+    margin: 0 0;
+    object-fit: cover;
+
+}
+
+.fade1 img {
+
+    background-image: url(../img/Antibodies.svg);
+    background-repeat: no-repeat;
+  /*  background-size: auto 100%; */
+    object-fit: cover;
+    object-position: relative;
+    background-attachment: fixed;
+    opacity: 1;
+    transition: opacity 2s ease-in-out;
+}
+
+.fade1:hover img {
+
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+
+}
+
+
+/*
+#antibodies_image {
+  margin:0 auto;
+  width:100%;
+  height:100vh;
+  background-repeat: no-repeat;
+  object-fit: cover;
+
+  transition: background-image 4s ease-in-out;
+  background-image:url("../img/Antibodies.svg");
+}
+
+#antibodies_image:hover {
+  transition: background-image 4s ease-in-out;
+  background-image:url("../img/Antibodies_none.svg");
+}
+
+
+*/
+
+/*
+#cf {
+  position:relative;
+  height:281px;
+  width:450px;
+  margin:0 auto;
+}
+
+#cf img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#cf img.top:hover {
+  opacity:0;
+}
+
+*/
+
+
+
+
+
+
+
+
+
+/* .fade1 .fade-content {
+    position: relative;
+    width: 90%;
+    height: auto;
+    opacity: 0;
+    background-image: url(../img/Antibodies_none.svg);
+    transition: opacity 2s ease-in-out;
+}
+
+.fade1:hover .fade-content {
+    opacity: 1;
+    transition: opacity 2s ease-in-out;
+}
+
+.fade1 .fade-prof {
+    margin: 1px 0 1px 0;
+    position: relative;
+    top: 1%;
+    text-align: center;
+}
+
+.fade1 .fade-prof a {
+    color: #6a6060;
+    font-size: 1.5vw;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.fade1 .fade-prof a:hover {
+    color: #2196f3;
+    text-decoration: none;
+    text-align: center;
+}
+
+.fade1 .fade-prof small {
+    color: #6a6060;
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 1px;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+
+
+@media only screen and (max-width: 990px) {
+    .fade1 {
+        margin-bottom: 20px;
+
+    }
+    .fade1 .fade-prof a {
+        font-size: 16px;
+        text-align: center;
+    }
+}
+
+*/
 
 
 
@@ -276,25 +433,25 @@ p {
     }
 
     #problem1{
-        /*background: #000; */
-        background-image: url(../img/Antibodies.svg);
+        background: #000;
+
     }
 
     #problem1-bg-diagonal {
         width: 100%;
-        height: 50vh;
+        height: 100vh;
         float: right;
         background-image: url(../img/Antibodies.svg);
 
     }
 
-    #problem1b-bg-diagonal {
+    /* #problem1b-bg-diagonal {
         width: 100%;
         height: 50vh;
         float: right;
         background-image: url(../img/Antibodies_none.svg);
 
-    }
+    }  */
 
     #problem1-content-box {
         float: left;
@@ -328,12 +485,62 @@ p {
 
 
 
-
-
-
-
-
     #problem2{
+        background: #000;
+
+    }
+
+    #problem2-bg-diagonal {
+        width: 100%;
+        height: 100vh;
+        float: right;
+        background-image: url(../img/T-cells.svg);
+
+    }
+
+  /*  #problem2b-bg-diagonal {
+        width: 100%;
+        height: 50vh;
+        float: right;
+        background-image: url(../img/T-cells_none.svg);
+
+    }  */
+
+    #problem2-content-box {
+        float: left;
+        height: 100vh;
+    }
+
+    #problem2-content-box-outer {
+
+        height: 100vh;
+        display: table;
+    }
+
+    #problem2-content-box-inner {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    #problem2 .content-title h3 {
+        text-align: left;
+        font-size: 5vh;
+    }
+
+    #problem2 .content-title-underline {
+        margin: 0 0 30px 0;
+    }
+
+    #problem2-desc p {
+        margin-bottom: 30px;
+        color:#fff;
+    }
+
+
+
+
+
+  /*  #problem2{
 
     }
 
@@ -374,7 +581,7 @@ p {
         margin-bottom: 30px;
         color:#fff;
     }
-
+*/
 
 
 

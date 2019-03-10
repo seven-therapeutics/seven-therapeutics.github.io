@@ -21,7 +21,7 @@
     .navbar-nav {
         float: right;
     }
-      .bg-parallax {
+    .bg-parallax {
           height:100vh;
     }
     .vesco-nav-wrapper {
@@ -47,7 +47,7 @@
     .bg-parallax {
         height:100vh;
     }
-    /* About - remove diagonal border */
+    /* About - remove diagonal border
     #about-bg-diagonal {
         background-image: none;
         clear: both;
@@ -59,7 +59,7 @@
     #about-content-box {
         width: 100%;
         height: 350px;
-    }
+    }  */
     /* Footer */
     #footer-copyrights {
         text-align: center;
@@ -85,13 +85,17 @@
     #home-heading h3 {
         font-size: 9vw;
     }
-      .bg-parallax {
+    .bg-parallax {
           height:100vh;
     }
     /* Buttons */
     .btn-general {
         padding: 6px 22px 6px 22px;
         font-size: 14px;
+    }
+
+    #home-heading h1 {
+        font-size: 5vw;
     }
     /* About - remove diagonal border */
   /*  #about-bg-diagonal {
